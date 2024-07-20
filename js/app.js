@@ -6,9 +6,7 @@ const gam_card = document.querySelector(".sidebar_card")
 
 const API_URL = "https://dummyjson.com"
 
-function gam_cardOpen(){
-    gam_card.classList.toggle("show")
-}
+
 for(let i=0; i<12; i++){
     let skeletonItem = document.createElement("div")
     skeletonItem.classList.add("skeleton__item")
